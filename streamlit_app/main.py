@@ -9,8 +9,8 @@ load_dotenv()
 import streamlit as st
 import re
 
-from streamlit_app.utils.api_client import api_client
-from streamlit_app.utils.session import (
+from utils.api_client import api_client
+from utils.session import (
     get_session_id,
     set_session_id,
     new_session,
