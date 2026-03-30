@@ -24,7 +24,7 @@ class Settings(BaseSettings):
     jwt_secret: str
     jwt_expire_hours: int = 24
 
-    api_base_url: str = "http://localhost:9000"
+    api_base_url: str = "https://rag-medecine-production.up.railway.app"
     allowed_origins: str = "*"  
 
     model_config = SettingsConfigDict(
