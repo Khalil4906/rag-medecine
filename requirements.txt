@@ -29,7 +29,7 @@ python-dotenv==1.0.1
 # Streamlit
 streamlit==1.39.0
 requests==2.32.
-Pillow==10.0.0
+Pillow==9.5.0
 
 # Tests
 pytest==8.3.3
