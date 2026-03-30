@@ -13,7 +13,7 @@ load_dotenv()
 try:
     _BASE_URL = st.secrets["API_BASE_URL"]
 except Exception:
-    _BASE_URL = os.getenv("API_BASE_URL", "http://localhost:8000")
+    _BASE_URL = os.getenv("API_BASE_URL", "http://localhost:9000")
 print(">>> BASE URL utilisée:", _BASE_URL)
 _TIMEOUT_CHAT = 120
 _TIMEOUT_DEFAULT = 120
