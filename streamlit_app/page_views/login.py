@@ -3,8 +3,8 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent.parent.parent))
 
 import streamlit as st
-from streamlit_app.utils.api_client import api_client
-from streamlit_app.utils.session import store_token
+from utils.api_client import api_client
+from utils.session import store_token
 
 
 def render() -> None:
