@@ -11,11 +11,11 @@ def render() -> None:
     st.markdown(
         """
         <div style='text-align:center;padding:60px 0 30px;'>
-            <div style='font-size:56px;'>⚖️</div>
+            <div style='font-size:56px;'>🏥</div>
             <div style='font-size:26px;font-weight:600;
-            color:#8b1a4a;margin:12px 0 4px;'>RAG Droit</div>
+            color:#8b1a4a;margin:12px 0 4px;'>RAG DroMédecineit</div>
             <div style='font-size:14px;color:#c06080;'>
-            Ton assistant juridique personnel</div>
+            Ton assistant médical personnel</div>
         </div>
         """,
         unsafe_allow_html=True,
@@ -27,7 +27,7 @@ def render() -> None:
         with st.form("login_form"):
             username = st.text_input(
                 "Identifiant",
-                placeholder="khalil",
+                placeholder="nouha",
             )
             password = st.text_input(
                 "Mot de passe",
