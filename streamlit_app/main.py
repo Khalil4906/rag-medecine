@@ -341,18 +341,18 @@ def render_chat_page() -> None:
 
 
 def render_documents_page() -> None:
-    from streamlit_app.page_views.documents import render as render_docs
+    from page_views.documents import render as render_docs
     render_docs()
 
 
 def render_config_page() -> None:
-    from streamlit_app.page_views.config import render as render_cfg
+    from page_views.config import render as render_cfg
     render_cfg()
 
 
 def main() -> None:
     if not is_authenticated():
-        from streamlit_app.page_views.login import render as render_login
+        from page_views.login import render as render_login
         render_login()
         return
 
